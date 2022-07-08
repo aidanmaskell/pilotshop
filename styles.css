@@ -103,21 +103,16 @@ header {
 }
 
 
-.row-1 {
-	display:flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	margin-left: 5%;
-	margin-right: 5%;	
+.products {
+	display: flex;
+	justify-content: flex-end;
+	flex-wrap: wrap;	
 }
 
-.row-2 {
-	display:flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	margin-left: 5%;
-	margin-right: 5%;
+.products div {
+	width: 25%;
 }
+
 
 
 
@@ -146,14 +141,6 @@ header {
 		justify-content: center;
 	}
 	
-	/*.row-1 {
-		flex-wrap: wrap;
-	}
-	
-	.row-2 {
-		flex-wrap: wrap; 
-	}*/
-	
 	.features {
 		flex-wrap: wrap;
 	}
@@ -172,17 +159,14 @@ header {
 	
 	
 	
-	.row-1 {
+	.products {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 	}
 	
-	.row-2 {
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
+	
+	
 	
 	.features div:nth-child(2) {
 		display:none;
